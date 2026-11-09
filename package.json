@@ -1,0 +1,22 @@
+{
+  "name": "quantum-hub-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/prerender.mjs && node scripts/build-pages.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "htmltojsx": "^0.3.0",
+    "jsdom": "^31.0.0",
+    "vite": "^5.4.11"
+  }
+}

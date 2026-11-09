@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>__TITLE__</title>
+    <meta name="description" content="__DESCRIPTION__" />
+    <meta
+      name="keywords"
+      content="quantum computing, learn quantum computing, qubit, quantum simulator, Bloch sphere, Qiskit, quantum algorithms, quantum hardware, quantum computing for beginners"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="__SITE_URL__/" />
+
+    <!-- Favicon + app icons (files live in /public) -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn, Discord previews) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="__SITE_NAME__" />
+    <meta property="og:title" content="__TITLE__" />
+    <meta property="og:description" content="__DESCRIPTION__" />
+    <meta property="og:url" content="__SITE_URL__/" />
+    <meta property="og:image" content="__SITE_URL__/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="__TITLE__" />
+    <meta name="twitter:description" content="__DESCRIPTION__" />
+    <meta name="twitter:image" content="__SITE_URL__/og-image.png" />
+
+    <meta name="theme-color" content="#050816" />
+
+    <!-- Structured data: helps Google understand what the site is -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "__SITE_URL__/#website",
+            "url": "__SITE_URL__/",
+            "name": "__SITE_NAME__",
+            "description": "__DESCRIPTION__",
+            "inLanguage": "en"
+          },
+          {
+            "@type": "Course",
+            "name": "Quantum Computing: Interactive 3D Course",
+            "description": "__DESCRIPTION__",
+            "url": "__SITE_URL__/",
+            "isAccessibleForFree": true,
+            "inLanguage": "en",
+            "educationalLevel": "Beginner to advanced",
+            "provider": { "@type": "Organization", "name": "__SITE_NAME__", "url": "__SITE_URL__/" }
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding:24px;font:16px system-ui;color:#e8f0f6;background:#050816">
+        Quantum Hub 3D is an interactive quantum computing course that needs JavaScript for its live 3D simulations.
+        You can still read our <a href="/guides/" style="color:#ff7a59">beginner guides</a>.
+      </p>
+    </noscript>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
